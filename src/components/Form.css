@@ -1,0 +1,57 @@
+.form {
+  background-color: aliceblue;
+  padding: 30px;
+  margin: 35px auto;
+  max-width: 640px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+  text-align: center;
+  align-items: center;
+}
+
+.form input {
+  width: 300px;
+  height: 44px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  font-family: 'Antonio';
+  border: solid 1px var(--gray);
+}
+
+.form input:hover  {
+  border: solid 2px var(--lightBlue);
+}
+
+.form input:focus  {
+  border: solid 2px var(--lightBlue);
+  box-shadow: 0 0 15px rgba(43, 120, 194, .5);
+}
+
+.form h1 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--gray);
+  /* padding: 5px; */
+  margin: 10px;
+}
+
+.form button {
+  border: none;
+  border-radius: 3px;
+  height: 44px;
+  line-height: 24px;
+  background: var(--lightBlue);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+  font-size: 24px;
+  font-family: 'Antonio';
+  opacity: 0.8;
+  transition: 0.3s;
+  /* font-weight: bold; */
+}
+
+.form button:hover {
+  opacity: 1;
+}

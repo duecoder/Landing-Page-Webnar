@@ -1,0 +1,27 @@
+.footer {
+  /* padding: 5px; */
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  max-width: 640px;
+  justify-content: space-between;
+}
+
+.img-footer {
+  max-width: 300px;
+  float: left;
+}
+
+#imgfooter {
+  width: 90px;
+}
+
+.text-footer {
+  margin-top: 35px;
+  max-width: 380px;
+  font-size: 20px;
+  float: right;
+  font-family: 'Playfair Display';
+  color: var(--gray);
+  text-shadow: 0 0 3px rgba(0, 0, 0, .1);
+}
